@@ -62,6 +62,7 @@
   width: 100px;
   height: 7px;
   left: 50%;
+  bottom: -20px;
   transform: translateX(-50%);
   background: #fff7ae;
 }
@@ -73,6 +74,7 @@
   width: 100px;
   height: 7px;
   left: 50%;
+  bottom: -20px;
   transform: translateX(-50%);
   background: #fff7ae;
 }
@@ -114,8 +116,137 @@
   background-size: contain;
 }
 
+.info__icon {
+  display: flex;
+}
+
+.icon-icon {
+  width: 52px;
+  height: 60px;
+  margin: auto;
+  border-radius: 2px;
+  background: #fff;
+
+}
+
 @media (max-width: 1690px) {
   .info {
     margin-bottom: -340px / 1440px * 100vw;;
   }
 }
+
+@media (max-width: 1076px) {
+  .info__follow-title {
+    font-size: 40px;
+}
+  .info__contact-title {
+    font-size: 40px;
+  }
+
+  .info-icons {
+    justify-content: space-around;
+  }
+
+  .info__icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .info__contact-btn {
+    min-height: 76px;
+    max-width: 224px;
+    padding-top: 18px;
+    font-size: 24px;
+  }
+
+  .icon-icon {
+    width: 32px;
+    height: 40px;
+  }
+
+}
+
+ @media (max-width: 910px) {
+   .info {
+    display: flex;
+     justify-content: space-between;
+    margin-bottom: -17.41111vw;
+
+   }
+}
+
+@media (max-width: 730px) {
+  .info {
+    margin-bottom: -26.41111vw;
+  }
+
+  .info__contact-title {
+    font-size: 20px;
+  }
+
+  .info__follow-title {
+    font-size: 20px;
+  }
+
+  .info__follow-title::after {
+    height: 3px;
+    bottom: -15px;
+  }
+
+  .info__contact-title::after {
+    height: 3px;
+    bottom: -15px;
+  }
+
+  .info__contact-btn {
+    margin-top: 47px;
+  }
+
+  .info-icons {
+    margin-top: 47px;
+  }
+
+  .info__contact-btn {
+    min-height: 56px;
+    padding-top: 14px;
+
+    font-size: 18px;
+  }
+
+  .info__icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-icon {
+    width: 24px;
+    height: 32px;
+  }
+
+}
+
+@media (max-width: 584px) {
+  .info {
+    margin-bottom: -16.91111vw;
+  }
+}
+
+@media (max-width: 404px) {
+  .info__contact-title::after {
+    bottom: -7px;
+  }
+
+  .info__follow-title::after {
+    bottom: -7px;
+  }
+
+  .info-icons {
+    margin-top: 20px;
+  }
+
+  .info__contact-btn {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}
+

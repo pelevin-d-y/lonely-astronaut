@@ -184,6 +184,25 @@
     font-size: 23px;
   }
 }
+@media (max-width: 1076px) {
+  .okey__title {
+    font-size: 80px;
+  }
+
+   .demographic {
+    font-size: 35px;
+  }
+
+   .okey__desc {
+    font-size: 38px;
+    left: -50px;
+    top: -16px;
+  }
+
+  .step {
+    font-size: 40px;
+  }
+}
 
 @media (max-width: 986px) {
   .container {
@@ -195,11 +214,15 @@
   }
 
   .lines-text {
-    font-size: 85px;
+    font-size: 82px;
+  }
+
+  .demographic {
+    font-size: 30px;
   }
 
   .blurring {
-    font-size: 55px;
+    font-size: 52px;
     left: -50px;
   }
 
@@ -210,14 +233,88 @@
   }
 }
 
-@media (max-width: 843px) {
-  .demographic {
+@media (max-width: 918px) {
+
+  .container {
+    padding-right: 15px;
+  }
+
+  .okey {
+    margin-left: 55px;
+  }
+
+  .okey__title {
+    font-size: 50px;
+  }
+
+ .okey__desc {
+    font-size: 28px;
+    left: -50px;
+    top: -16px;
+  }
+
+  .step {
     font-size: 35px;
   }
 }
 
-@media (max-width: 7520px) {
 
+@media (max-width: 730px) {
+  .container {
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  }
+
+  .container__desc {
+     padding: 0 15px;
+    max-width: 550px;
+
+    font-size: 17px;
+  }
+
+  .lines-text {
+    font-size: 31px;
+  }
+
+  .blurring {
+    top: -12px;
+    font-size: 21px;
+  }
+
+  .lines::after {
+    max-width: 540px;
+    height: 19px;
+    left: 0;
+    top: 20px;
+  }
+
+  .demographic {
+    font-size: 26px;
+  }
+
+  .map__bottom-text {
+    padding: 0 15px;
+    font-size: 17px;
+  }
+
+
+
+  .okey__title {
+    font-size: 30px;
+    line-height: 46px;
+  }
+
+  .okey__desc {
+    line-height: 42px;
+    font-size: 19px;
+    left: -20px;
+  }
+
+  .step {
+    font-size: 26px;
+  }
 }
 
 @media (max-width: 484px) {
