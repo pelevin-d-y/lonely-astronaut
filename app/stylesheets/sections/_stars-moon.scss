@@ -1,0 +1,232 @@
+.header {
+  position: relative;
+  min-height: 2039px / 1440px * 100vw;
+  background: #0b0b24;
+  background-size: cover;
+}
+
+.stars-1 {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 843px / 1440px * 100vw;
+  width: 100%;
+
+  background: url('../images/stars-1.png') no-repeat center;
+  background-size: contain;
+}
+
+.stars-2 {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 813px / 1440px * 100vw;
+  min-height: 843px / 1440px * 100vw;
+  min-height: 853px / 1440px * 100vw;
+  width: 100%;
+
+  background: url('../images/stars-2.png') no-repeat center;
+  background-size: contain;
+}
+
+.mission {
+  position: relative;
+  z-index: 8;
+
+  padding-top: 220px / 1440px * 100vw;
+  padding-left: 100px / 1440px * 100vw;
+}
+
+.mission__title {
+  padding-left: 20px;
+  z-index: 0;
+
+  position: relative;
+  font-family: GillSans-Bold;
+  font-weight: bold;
+  font-size: 125px;
+  color: #5D5D5D;
+  letter-spacing: 25px;
+  text-transform: uppercase;
+}
+
+.mission__title-text {
+  z-index: 3;
+  position: relative;
+}
+
+.mission__title::after {
+  z-index: 1;
+  position: absolute;
+  top: 77px;
+  left: -5px;
+  content: '';
+  display: block;
+  max-width: 768px;
+  height: 58px;
+  width: 100%;
+  background: #fff7ae;
+}
+
+.mission__desk {
+  max-width: 870px;
+  margin-left: 7px;
+  margin-top: 25px;
+
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  font-family: Montserrat-Light;
+  font-size: 28px;
+  text-align: center;
+
+}
+
+.media {
+  position: relative;
+  z-index: 3;
+  max-width: 848px;
+  width: 100%;
+  margin-top: 147px / 1440px * 100vw;
+  margin-left: 690px / 1440px * 100vw;
+
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 3.6px;
+  color: #fff7ae;
+  font-family: GillSans-SemiBold;
+  font-size: 50.0px;
+  text-transform: uppercase;
+}
+
+.story {
+  position: relative;
+  z-index: 5;
+  max-width: 870px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 128px / 1440px * 100vw;
+
+  font-family: Montserrat-Light;
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.moon {
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 877px / 1440px * 100vw;
+  background: #0b0b24;
+}
+
+.moon-img {
+  width: 100%;
+  height: 105%;
+  background: url('../images/moon.png') no-repeat center;
+  background-size: contain;
+}
+
+@media (max-width: 1632px) {
+  .media {
+    margin-left: 30vw;
+  }
+}
+
+@media (max-width: 1202px) {
+  .mission__title {
+    font-size: 100px;
+  }
+
+  .mission__title::after {
+  top: 62px;
+  left: -5px;
+  content: '';
+  display: block;
+  max-width: 648px;
+  height: 58px;
+  width: 100%;
+  background: #fff7ae;
+  }
+
+  .mission__desk {
+    max-width: 700px;
+    font-size: 23px
+  }
+
+  .media {
+    font-size: 40px;
+    max-width: 700px
+  }
+
+  .story {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 986px) {
+  .header {
+    padding: 0 15px;
+  }
+
+  .media {
+    margin-left: 15vw;
+  }
+}
+
+@media (max-width: 843px) {
+  .header {
+    min-height: 2439px / 1440px * 100vw;
+  }
+
+  .media {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 730px) {
+  .mission {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+  .mission__title {
+    padding-left: 0;
+    font-size: 31px;
+    text-align: center;
+  }
+
+  .mission__title::after {
+    max-width: 540px;
+    height: 19px;
+
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+  }
+
+  .mission__desk {
+    font-size: 17px;
+  }
+
+  .media {
+    font-size: 26px;
+  }
+
+  .story {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 484px) {
+  .header {
+    min-height: 900px;
+  }
+}

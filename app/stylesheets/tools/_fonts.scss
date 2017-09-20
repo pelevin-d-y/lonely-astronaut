@@ -1,9 +1,49 @@
 @font-face {
-	font-family: 'Futura PT Book';
-	src: url('../fonts/FuturaPT-Book.eot');
-	src: url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/FuturaPT-Book.woff') format('woff'),
-		url('../fonts/FuturaPT-Book.ttf') format('truetype');
+	font-family: 'GillSans-Bold';
+	src: url('../fonts/GillSans-Bold.eot');
+	src: url('../fonts/GillSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GillSans-Bold.woff') format('woff'),
+		url('../fonts/GillSans-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GillSansMT-BoldItalic';
+	src: url('../fonts/GillSansMT-BoldItalic.eot');
+	src: url('../fonts/GillSansMT-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GillSansMT-BoldItalic.woff') format('woff'),
+		url('../fonts/GillSansMT-BoldItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GillSans-SemiBold';
+	src: url('../fonts/GillSans-SemiBold.eot');
+	src: url('../fonts/GillSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GillSans-SemiBold.woff') format('woff'),
+		url('../fonts/GillSans-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('../fonts/Montserrat-Light.eot');
+	src: url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Light.woff') format('woff'),
+		url('../fonts/Montserrat-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Medium';
+	src: url('../fonts/Montserrat-Medium.eot');
+	src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Medium.woff') format('woff'),
+		url('../fonts/Montserrat-Medium.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }

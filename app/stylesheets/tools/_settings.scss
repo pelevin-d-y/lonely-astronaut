@@ -1,8 +1,7 @@
 body {
-  font-family: 'Futura PT Book', sans-serif;
+  font-family: 'Montserrat-Medium', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-transform: uppercase;
 }
 
 * {
@@ -13,15 +12,4 @@ a {
   text-decoration: none;
 }
 
-.container {
-  position: relative;
-  overflow: hidden;
 
-  max-width: 1200px;
-  padding: 0 30px;
-  margin: 0 auto;
-}
-
-.hajksd {
-  background: red;
-}
